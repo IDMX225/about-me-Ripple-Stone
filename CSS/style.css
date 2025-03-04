@@ -21,17 +21,49 @@ header {
     text-align:center;
 }
 
+
+/*Hero Section*/
+#Hero img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+/*Bio Section*/
 #Bio {
     text-align:center;
 }
 
+/*Hobbies Section*/
 #hobbies ul li:nth-child(odd){
     color: darkmagenta;
     font-family: 'Courier New', Courier, monospace;
 }
 
-#Hero img {
-    border-radius: 50%;
-    width: 300px;
-    height: 300px;
+/*Gallery Section*/
+#gallery {
+    border: 2px solid #9DF4FA;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#gallery img {
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #9DF4FA;
+    border: 2px solid #52787A;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#gallery figure {
+    margin: 10px;
+    padding: 10px;
+    background-color: #9DF4FA;
+    border-radius: 10px;
+    text-align: center;
 }
