@@ -25,6 +25,11 @@ header {
     text-align:center;
 }
 
+#hobbies ul li:nth-child(odd){
+    color: darkmagenta;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 #Hero img {
     border-radius: 50%;
     width: 300px;
