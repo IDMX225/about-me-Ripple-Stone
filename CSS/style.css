@@ -14,11 +14,12 @@ header {
 }
 
 #Hero, footer {
-    background-color: #52787A;
-    border-radius: 10px;
-    border: 2px solid #9DF4FA;
-    padding: 10px;
-    text-align:center;
+  background-color: #52787A;
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  border-top: 2px solid #9DF4FA;
 }
 
 
@@ -75,6 +76,22 @@ header {
     background-color: #fff8f0;
     border-radius: 8px;
   }
+
+  #Lit {
+    background-color: #fdfdfd;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 900px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#Lit h2, #Lit h3 {
+    font-family: "Playfair Display", serif;
+    color: #333;
+}
+
   
   #contact label,
   #contact input,
