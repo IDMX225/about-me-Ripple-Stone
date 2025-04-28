@@ -1,122 +1,125 @@
 body {
-  font-family:Roboto;
-  background-color: #A4B9BA;
-  color: #503828;
+    font-family:Roboto;
+    background-color: #A4B9BA;
+    color: #503828;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family:"Playfair Display";
+    font-family:"Playfair Display";
 }
 
+
 header {
-  /* text-align:center; */
+    text-align:center;
 }
 
 #Hero, footer {
-  background-color: #52787A;
-  border-radius: 10px;
-  border: 2px solid #9DF4FA;
-  padding: 10px;
-  text-align:center;
+    background-color: #52787A;
+    border-radius: 10px;
+    border: 2px solid #9DF4FA;
+    padding: 10px;
+    text-align:center;
 }
 
+
 #Hero img {
-  border-radius: 50%;
-  width: 300px;
-  height: 300px;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
 }
 
 #Bio {
-  text-align:center;
+    text-align:center;
 }
 
 #hobbies ul li:nth-child(odd){
-  color: darkmagenta;
-  font-family: 'Courier New', Courier, monospace;
+    color: darkmagenta;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #gallery {
-  border: 2px solid #9DF4FA;
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
+    border: 2px solid #9DF4FA;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
 #gallery img {
-  border-radius: 10px;
-  width: 200px;
-  height: 200px;
-  margin: 10px;
-  padding: 10px;
-  background-color: #9DF4FA;
-  border: 2px solid #52787A;
-  border-radius: 10px;
-  text-align: center;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #9DF4FA;
+    border: 2px solid #52787A;
+    border-radius: 10px;
+    text-align: center;
 }
 
 #gallery figure {
-  margin: 10px;
-  padding: 10px;
-  background-color: #9DF4FA;
-  border-radius: 10px;
-  text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: #9DF4FA;
+    border-radius: 10px;
+    text-align: center;
 }
 
 #contact {
-  padding: 2em;
-  background-color: #f4f4f4;
-}
-
-#contact fieldset {
-  border: 2px solid #333;
-  padding: 1em;
-  background-color: #fff8f0;
-  border-radius: 8px;
-}
-
-#contact label,
-#contact input,
-#contact textarea,
-#contact select {
-  display: block;
-  width: 100%;
-  margin: 0.5em 0;
-  font-size: 1em;
-  padding: 0.5em;
-}
-
-#contact textarea {
-  height: 100px;
-}
-
-#contact button {
-  background-color: #ff6600;
-  color: white;
-  border: none;
-  padding: 0.75em 1.5em;
-  font-size: 1em;
-  cursor: pointer;
-  border-radius: 4px;
-  margin-top: 1em;
-}
-
-@media (min-width: 600px) {
+    padding: 2em;
+    background-color: #f4f4f4;
+  }
+  
   #contact fieldset {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1em;
+    border: 2px solid #333;
+    padding: 1em;
+    background-color: #fff8f0;
+    border-radius: 8px;
   }
-
+  
+  #contact label,
+  #contact input,
   #contact textarea,
-  #contact ul,
+  #contact select {
+    display: block;
+    width: 100%;
+    margin: 0.5em 0;
+    font-size: 1em;
+    padding: 0.5em;
+  }
+  
+  #contact textarea {
+    height: 100px;
+  }
+  
   #contact button {
-    grid-column: span 2;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 0.75em 1.5em;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 1em;
   }
-}
-
-@media (min-width: 1024px) {
-  #contact {
-    max-width: 800px;
-    margin: 0 auto;
+  
+  @media (min-width: 600px) {
+    #contact fieldset {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1em;
+    }
+  
+    #contact textarea,
+    #contact ul,
+    #contact button {
+      grid-column: span 2;
+    }
   }
-}
+  
+  @media (min-width: 1024px) {
+    #contact {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+  }
+  
