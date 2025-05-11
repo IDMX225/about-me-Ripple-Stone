@@ -1,7 +1,7 @@
 # README
 # Ripple-Stone
 
-![![Netlify Status](https://api.netlify.com/api/v1/badges/4a350546-9c82-45fe-890d-581b3f35b922/deploy-status)](https://app.netlify.com/sites/michaelpeck-aboutme/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4a350546-9c82-45fe-890d-581b3f35b922/deploy-status)](https://app.netlify.com/sites/michaelpeck-aboutme/deploys)
 
 ## Author
 Michael Peck  
