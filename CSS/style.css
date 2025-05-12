@@ -94,7 +94,13 @@ header {
     color: #333;
 }
 
-  
+#fallacy-image {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+}
+
   #contact label,
   #contact input,
   #contact textarea,

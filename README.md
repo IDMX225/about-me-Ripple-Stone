@@ -38,5 +38,13 @@ All original content is © Michael Peck. This project is shared for educational 
 
 The navigation bar includes anchor links to all key sections of the site. On smaller screens, it converts into a hamburger menu using HTML and CSS only — without JavaScript. This provides users with a clear, responsive way to navigate the page.
 
+## Blog Sources
+
+https://yourlogicalfallacyis.com/ YourLogicalFallacyIs.com
+
+https://owl.purdue.edu/owl/general_writing/academic_writing/logic_in_argumentative_writing/fallacies.html Purdue OWL: Fallacies
+
+https://plato.stanford.edu/entries/fallacies/ Stanford Encyclopedia of Philosophy - Fallacies
+
 ---
 
