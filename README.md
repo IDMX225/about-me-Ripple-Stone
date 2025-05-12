@@ -46,5 +46,12 @@ https://owl.purdue.edu/owl/general_writing/academic_writing/logic_in_argumentati
 
 https://plato.stanford.edu/entries/fallacies/ Stanford Encyclopedia of Philosophy - Fallacies
 
+## Nav Bar Design
+
+The navigation bar on my About Me site uses a responsive hamburger menu that appears in smaller viewports (768px and below). It uses a simple checkbox toggle paired with CSS selectors to show and hide the menu. This eliminates the need for JavaScript while still offering a mobile-friendly experience.
+
+The menu automatically transitions from a full-width horizontal bar to a collapsed icon with three lines, and clicking it reveals the links vertically. This ensures accessibility and readability across screen sizes including mobile phones, tablets, and desktops.
+
+
 ---
 
