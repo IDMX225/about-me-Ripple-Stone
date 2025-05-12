@@ -22,6 +22,9 @@ This project is a personal "About Me" webpage built using HTML5 and CSS3. Throug
 
 All colors have been checked using [Contrast Checker](https://webaim.org/resources/contrastchecker/) to ensure readability and accessibility.
 
+## Logo & Favicon
+I created a personal monogram logo using my initials (MP) with a color scheme pulled from my site. The SVG logo appears in the header and the PNG version is used as a favicon in the browser tab. Both were styled and added manually through HTML. The image itself was made using the website canva.com: https://www.canva.com/dream-lab
+
 ## 📚 Citations
 
 - Fonts provided by Google Fonts: [Roboto Condensed](https://fonts.google.com/specimen/Roboto+Condensed), [Playfair Display](https://fonts.google.com/specimen/Playfair+Display)

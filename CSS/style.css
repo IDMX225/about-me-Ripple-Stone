@@ -45,7 +45,7 @@ header {
     text-align: center;
 }
 
-#gallery img {
+#gallery img:hover {
     border-radius: 10px;
     width: 200px;
     height: 200px;
@@ -55,6 +55,8 @@ header {
     border: 2px solid #52787A;
     border-radius: 10px;
     text-align: center;
+    transform: scale(4);
+    transition: transform 0.3s ease-in
 }
 
 #gallery figure {
@@ -139,4 +141,9 @@ header {
       margin: 0 auto;
     }
   }
-  
+  .profile-photo {
+  border-radius: 50%;
+  width: 300px;
+  height: auto;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
